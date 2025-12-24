@@ -1,7 +1,7 @@
 from fastapi import HTTPException,status
 
-from models.types import Types
-from models.pokemon_type import PokemonType
+from app.models.types import Types
+from app.models.pokemon_type import PokemonType
 
 
 # Helper function to assign types to a pokemon

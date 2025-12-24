@@ -1,8 +1,8 @@
-from fastapi import APIRouter, Depends, HTTPException, status, Response
+from fastapi import APIRouter, HTTPException, status, Response
 
-from models.types import Types
-from schemas.types import TypeResponse, TypeCreateRequest
-from core.dependencies import db_dependency, admin_dependency
+from app.models.types import Types
+from app.schemas.types import TypeResponse, TypeCreateRequest
+from app.core.dependencies import db_dependency, admin_dependency
 
 router = APIRouter(
     prefix="/types",

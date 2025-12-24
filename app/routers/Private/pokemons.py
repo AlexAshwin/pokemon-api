@@ -1,9 +1,9 @@
 from fastapi import APIRouter,HTTPException, status, Response
 
-from core.dependencies import admin_dependency, db_dependency, pokemon_create_request_dependency
-from models.pokemons import Pokemons
-from schemas.pokemons import PokemonCreateRequest, PokemonResponse
-from services.pokemon_service import assign_types_to_pokemon
+from app.core.dependencies import admin_dependency, db_dependency, pokemon_create_request_dependency
+from app.models.pokemons import Pokemons
+from app.schemas.pokemons import PokemonResponse
+from app.services.pokemon_service import assign_types_to_pokemon
 
 router = APIRouter(
     prefix="/pokemons",

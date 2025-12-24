@@ -1,6 +1,6 @@
-from models.types import Types
-from schemas.types import TypeResponse
-from core.dependencies import db_dependency
+from app.models.types import Types
+from app.schemas.types import TypeResponse
+from app.core.dependencies import db_dependency
 
 from fastapi import APIRouter, HTTPException, status
 

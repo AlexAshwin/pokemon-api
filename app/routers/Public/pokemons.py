@@ -1,7 +1,7 @@
-from models.pokemons import Pokemons
-from models.types import Types
-from schemas.pokemons import PokemonResponse
-from core.dependencies import db_dependency
+from app.models.pokemons import Pokemons
+from app.models.types import Types
+from app.schemas.pokemons import PokemonResponse
+from app.core.dependencies import db_dependency
 
 from fastapi import APIRouter, HTTPException, status
 

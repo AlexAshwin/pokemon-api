@@ -1,9 +1,9 @@
-from core.database import Base
+from app.core.database import Base
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.associationproxy import association_proxy
 
-from models.pokemon_type import PokemonType
+from app.models.pokemon_type import PokemonType
 
 class Pokemons(Base):
     __tablename__ = "pokemons"

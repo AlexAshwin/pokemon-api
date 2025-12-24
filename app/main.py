@@ -1,10 +1,8 @@
 from fastapi import FastAPI, status
 
-from routers.Public import pokemons as public_pokemons
-from routers.Public import types as public_types
-from routers.Private import pokemons as private_pokemons
-from routers.Private import types as private_types
-from routers.Private import auth
+from app.routers.Public import pokemons as public_pokemons, types as public_types
+from app.routers.Private import pokemons as private_pokemons, auth, types as private_types
+
 app = FastAPI()
 
 @app.get("/ping", status_code=status.HTTP_200_OK)
