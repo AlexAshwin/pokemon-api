@@ -17,7 +17,7 @@ def create_access_token(user_name: str, expires_delta: timedelta):
     return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
 
 
-def validate_token(token: str = Depends(oauth2_bearer)):
+def get_current_user(token: str = Depends(oauth2_bearer)) -> str:
     credentials_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,
         detail="Could not validate credentials",
@@ -31,6 +31,3 @@ def validate_token(token: str = Depends(oauth2_bearer)):
         return username
     except JWTError:
         raise credentials_exception
-
-def get_current_user(token: str = Depends(oauth2_bearer)):
-    return validate_token(token)

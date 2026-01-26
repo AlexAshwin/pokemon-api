@@ -17,6 +17,7 @@ class Pokemons(Base):
     # Relationship to association table
     pokemon_types = relationship(
         "PokemonType",
+        foreign_keys= [PokemonType.pokemon_id],
         back_populates="pokemon",
         order_by=lambda: PokemonType.slot,
         cascade="all, delete-orphan"

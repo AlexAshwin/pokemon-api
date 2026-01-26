@@ -21,7 +21,7 @@ def upgrade() -> None:
     """Upgrade schema."""
     op.create_table(
         "types",
-        sa.Column("id", sa.Integer, primary_key=True),
+        sa.Column("id", sa.Integer, primary_key=True, index=True),
         sa.Column("name", sa.String, unique=True, index=True),
     )
 
@@ -37,8 +37,8 @@ def upgrade() -> None:
 
     op.create_table(
         "pokemon_types",
-        sa.Column("pokemon_id", sa.Integer, sa.ForeignKey("pokemons.id"), primary_key=True),
-        sa.Column("type_id", sa.Integer, sa.ForeignKey("types.id"), primary_key=True),
+        sa.Column("pokemon_id", sa.Integer, sa.ForeignKey("pokemons.id"), primary_key=True, index=True),
+        sa.Column("type_id", sa.Integer, sa.ForeignKey("types.id"), primary_key=True, index= True),
     )
 
 

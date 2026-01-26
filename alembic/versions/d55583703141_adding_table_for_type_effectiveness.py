@@ -1,4 +1,4 @@
-"""Adding table for type effictiveness
+"""Adding table for type effectiveness
 
 Revision ID: d55583703141
 Revises: d8a8b29efedf
@@ -22,9 +22,9 @@ def upgrade() -> None:
     """Upgrade schema."""
     op.create_table(
         'type_effectiveness',
-        sa.Column('attacking_type', sa.Integer,sa.ForeignKey("types.id"),primary_key=True, index=True),
-        sa.Column('defending_type', sa.Integer, sa.ForeignKey("types.id"),primary_key=True, index=True),
-        sa.Column('effectiveness', sa.Float, nullable=False),
+        sa.Column('attacking_type_id', sa.Integer,sa.ForeignKey("types.id"),primary_key=True, index=True),
+        sa.Column('defending_type_id', sa.Integer, sa.ForeignKey("types.id"),primary_key=True, index=True),
+        sa.Column('effectiveness_multiplier', sa.Float, nullable=False),
     )
 
 

@@ -14,9 +14,11 @@ class PokemonType(Base):
     )
     pokemon = relationship(
         "Pokemons",
+        foreign_keys=[pokemon_id],
         back_populates="pokemon_types"
     )
     type = relationship(
         "Types",
+        foreign_keys=[type_id],
         back_populates="pokemon_types"
     )
