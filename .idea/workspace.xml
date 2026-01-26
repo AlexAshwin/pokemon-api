@@ -5,37 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9065c284-de2e-4bb8-a8e1-d44f15e7ae51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/alembic/versions/d55583703141_adding_table_for_type_effectiveness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/type_effectiveness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/Private/type_effectiveness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/Public/type_effectivness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/type_effectiveness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/BaseServices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/PokemonService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/TypeEffectivenessService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/TypeServices.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/alembic/README" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/alembic/script.py.mako" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/script.py.mako" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/alembic/versions/7febf4efd0cb_Adding_category_to_pokemons_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/versions/7febf4efd0cb_Adding_category_to_pokemons_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/alembic/versions/be4dfe28322a_creating_initial_table_structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/versions/be4dfe28322a_creating_initial_table_structure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/alembic/versions/d8a8b29efedf_adding_slots_in_pokemon_types_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/versions/d8a8b29efedf_adding_slots_in_pokemon_types_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/dependencies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/security.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/security.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/pokemon_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/pokemon_type.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/pokemons.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/pokemons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/Private/pokemons.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/Private/pokemons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/Private/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/Private/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/Public/pokemons.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/Public/pokemons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/Public/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/Public/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/pokemons.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/pokemons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/pokemon_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon.db" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in test_concurrency.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alxgr/Desktop/Pokemon&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in test_concurrency.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "prod",
+    "last_opened_file_path": "C:/Users/alxgr/Desktop/Pokemon"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alxgr\Desktop\Pokemon" />

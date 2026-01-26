@@ -16,8 +16,8 @@ def ping():
 # routes would be included here
 app.include_router(auth.router)
 app.include_router(public_types.router)
-app.include_router(private_types.router)
+#app.include_router(private_types.router)
 app.include_router(public_pokemons.router)
-app.include_router(private_pokemons.router)
+#app.include_router(private_pokemons.router)
 #app.include_router(private_type_effectiveness.router)
 app.include_router(public_type_effectiveness.router)
